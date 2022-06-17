@@ -18,7 +18,7 @@ public class Reservation {
 	
 	@Embedded
 	ReserveItem reserveItem;		// 예약대상(예약 종류, 예약ITEM ID)
-	
+		
 	public ReserveItem getReserveItem() {
 		return reserveItem;
 	}
