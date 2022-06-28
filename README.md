@@ -23,7 +23,7 @@ http :8080/pets
 - maria db 를 이용하여 연결:
 - maria db server 를 기동하기 (docker)
 ```
- docker run --name maria -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=admin  mariadb:latest 
+ docker run --name maria -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=admin  mariadb:10.4
 ```
 - 접속 및 DB 생성
 ```
