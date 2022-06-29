@@ -97,3 +97,13 @@ MariaDB [petstore]> select * from Pet;
 - Store 업무 영역의 추가
 - 비대한 Monolith
 - https://github.com/msa-school/ddd-petstore-level7-big-ball-of-mud
+
+
+http :8080/reservations subscriber_id=2 reservType="TRAINER_CONSULT" trainer_id=1 startDT="2022-06-18" endDT="2022-06-18"
+http :8080/reservations subscriber_id=2 reservType="PT_PROGRAM" ptprogram_id=1 startDT="2022-06-24" endDT="2022-07-24"
+http :8080/reservations subscriber_id=3 reservType="TRAINER_CONSULT" trainer_id=1 startDT="2022-06-19" endDT="2022-06-19"
+http :8080/reservations subscriber_id=3 reservType="PT_PROGRAM" ptprogram_id=1 startDT="2022-06-24" endDT="2022-07-24"
+http :8080/reservations subscriber_id=1 reservType="HEALTH_CENTER" gym_id=1 startDT="2022-06-18" endDT="2022-06-24"
+
+
+http :8080/reservations
