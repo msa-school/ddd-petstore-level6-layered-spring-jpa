@@ -47,6 +47,8 @@ public abstract class Pet {
 
 	public void eat(){
 		energy = energy + 1;
+
+		if(energy > 100) throw new TooMuchEnergyException();
 	}
 
 	public void sleep(){
