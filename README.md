@@ -65,6 +65,16 @@ spring:
     password: admin
     driverClassName: com.mysql.cj.jdbc.Driver
 ```
+
+- pom.xml
+```
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+```
+
 - 데이터 확인
 ```
 MariaDB [(none)]> use petstore
