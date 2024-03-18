@@ -1,5 +1,8 @@
 # 시작하기
 
+[![Video](https://img.youtube.com/vi/L5kvIZjFNJc/0.jpg)](https://www.youtube.com/watch?v=L5kvIZjFNJc)
+
+
 ## Base Project 다운로드 및 실행
 먼저, 새로운 브라우저 탭을 열고, base project 를 gitpod 로 접속합니다.
 
@@ -107,3 +110,10 @@ MariaDB [petstore]> select * from Pet;
 - Store 업무 영역의 추가
 - 비대한 Monolith
 - https://github.com/msa-school/ddd-petstore-level7-big-ball-of-mud
+
+  
+## 혹은: REST API 와 Controller Layer
+- Controller Layer 로 분리된 도메인 로직을 호출하는 예제. 
+- Service Layer 는 생략.
+- https://github.com/msa-school/ddd-petstore-level8-rest-api-and-aggregate-port
+
